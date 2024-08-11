@@ -55,10 +55,10 @@ int    g_iSurvivorHealth, g_iMaxReviveCount, g_iPlayersNumber, g_iShowServerName
 ConVar g_hSurvivorHealth, g_hMaxReviveCount, g_hPlayersNumber, g_hShowServerName, g_hShowServerTimer, g_hShowServerNumber, g_hShowRunningTime, g_hShowServerTime, g_hShowKillNumber, g_hFakeRanking, g_hDeathFake, g_hReportLine, g_hReportTime, g_hTypeRanking, g_hDispRanking, g_hInfoRanking, g_hHostName;
 
 char g_sTemp[Amount - 1][128], g_sDeathKill[Amount][128], g_sDeathInfo[256];
-char sDate[][] = {"天", "时", "分", "秒"};
-char g_sTitle[][] = {"状态", "血量", "击杀", "爆头", "丧尸", "友伤", "名字"};//这里不要改变长度,否则自动对齐可能怪怪的.
-char g_sWeekName[][] = {"一", "二", "三", "四", "五", "六", "日"};
-char g_sZombieName[][] = {"舌头","胖子","猎人","口水","猴子","牛牛","女巫","坦克"};
+char sDate[][] = {"D", "H", "M", "S"};
+char g_sTitle[][] = {"ST", "HP", "K", "HS", "Z", "FF", "N"};//这里不要改变长度,否则自动对齐可能怪怪的.
+char g_sWeekName[][] = {"1", "2", "3", "4", "5", "6", "7"};
+char g_sZombieName[][] = {"Smoker","Boomer","Hunter","Splitter","Jockey","Charger","Witch","Tank"};
 
 Handle g_hTimerHUD, g_hTimerCSKill, g_hDisplayNumber;
 
